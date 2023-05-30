@@ -78,19 +78,13 @@ pallet-collator-selection = { git = "https://github.com/paritytech/cumulus.git",
 parachain-info = { git = "https://github.com/paritytech/cumulus.git", branch = "polkadot-v0.9.36", default-features = false }
 
 sp-avn-common = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
-# pallet-avn-offence-handler = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
-# pallet-avn-finality-tracker = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
 pallet-validators-manager = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
-# pallet-ethereum-events = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
 pallet-avn = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
 pallet-ethereum-transactions = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
 pallet-summary = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
 pallet-token-manager = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
 pallet-nft-manager = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
 pallet-avn-proxy = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
-
-# pallet-parachain-staking = { git = "https://github.com/Aventus-Network-Services/avn-parachain", tag = "v1.0.8", default-features = false }
-
 
 [features]
 default = [
