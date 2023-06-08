@@ -1,7 +1,7 @@
 # AvN dev node template
 
 
-**⚠️ IMPORTANT NOTE ⚠️ ** <br />
+⚠️ IMPORTANT NOTE ⚠️ <br />
 This template provides a simple example of how to build an avn parachain node and MUST NOT BE USED IN PRODUCTION. It is configured with limited functionality and only contains a subset of avn pallets. **
 ---
 ---
