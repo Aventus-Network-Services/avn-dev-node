@@ -2,7 +2,7 @@
 
 
 ⚠️ IMPORTANT NOTE ⚠️ <br />
-This template provides a simple example of how to build an avn parachain node and MUST NOT BE USED IN PRODUCTION. It is configured with limited functionality and only contains a subset of avn pallets. **
+This template provides a simple example of how to build a parachain node using Avn pallets and MUST NOT BE USED IN PRODUCTION. It is configured with limited functionality and only contains a subset of avn pallets.
 ---
 ---
 <br />
@@ -11,9 +11,6 @@ This project template is a modified version of the original
 [Substrate parachain Template](https://github.com/substrate-developer-hub/substrate-parachain-template). It has been customized to include the minimum necessary dependencies for integrating some of the AvN pallets into the runtime.
 
 For more details on the implementation of the AvN Dev Node runtime, please refer to the [runtime/README.md](runtime/README.md) file.
-
-**Important note:**
-This project should be used only for development purposes and not in production instances.
 
 ## Parachains introduction and tutorials
 👉 Learn more about parachains [here](https://wiki.polkadot.network/docs/learn-parachains), and
