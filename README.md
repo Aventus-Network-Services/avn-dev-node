@@ -135,3 +135,15 @@ cargo update -p pallet-ewx-worker-solution
 ```
 
 This command forces your project to update its references to the pallet, ensuring you're using the latest version.
+
+## Using Worker pallet in polkadot.js UI
+
+After you launched relay chain and parachain as it is described in parachain-launch/README.md you
+can interact with pallet on `https://polkadot.js.org/`. By default polkadot.js is connected to
+Polkadot mainnet, so you need to switch to parachain. For this click on the chain drop-down list in
+up right conner and select `DEVELOPMENT` sublist. If this list is missing `ws:127.0.0.1:9947` node,
+then you need to add it in `custom endpoint` field.
+Extrinsics are availabe in `Developer/extrinsic` menu. Before sending extrinsic choose one of the
+development accounts.
+
+### Signing up solution registrar
